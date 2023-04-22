@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "VSCode extension",
+  "description": "Open with Vscode in folder",
+  "developer_name": "mikamo3",
+  "icon": "/usr/share/icons/visual-studio-code.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "vscode_kw",
+      "type": "keyword",
+      "name": "Open with VSCode ",
+      "description": "Open with Vscode in folder",
+      "default_value": "vs"
+    }
+  ]
+}
